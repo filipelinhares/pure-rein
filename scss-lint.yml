@@ -1,0 +1,4 @@
+linters:
+   MergeableSelector:
+    enabled: false
+    force_nesting: true

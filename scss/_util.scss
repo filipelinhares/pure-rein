@@ -1,0 +1,32 @@
+
+// Color pattern
+$color-default  : rgb(216, 216, 216);
+$color-primary  : rgb(34, 34, 34);
+$color-secondary: rgb(66, 184, 221);
+$color-success  : rgb(28, 184, 65);
+$color-error    : rgb(202, 60, 60);
+$color-warning  : rgb(223, 117, 20);
+
+$bg-border-button : transparent;
+
+$bg-3d-default    : darken($color-default, 15%);
+$bg-3d-primary    : darken($color-primary, 15%);
+$bg-3d-secondary  : darken($color-secondary, 15%);
+$bg-3d-success    : darken($color-success, 15%);
+$bg-3d-error      : darken($color-error, 15%);
+$bg-3d-warning    : darken($color-warning, 15%);
+
+
+@mixin box-3d ($color) {
+  //# - http://caniuse.com/css-boxshadow
+  -webkit-box-shadow: 1px 1px 0 $color,
+                      2px 2px 0 $color,
+                      3px 3px 0 $color,
+                      4px 4px 0 $color,
+                      5px 5px 0 $color;
+  box-shadow: 1px 1px 0 $color,
+              2px 2px 0 $color,
+              3px 3px 0 $color,
+              4px 4px 0 $color,
+              5px 5px 0 $color;
+}
