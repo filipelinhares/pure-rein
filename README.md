@@ -82,7 +82,7 @@ You can costumize all colors you own.
 Found any problem? Please open an [issue](https://github.com/filipelinhares/pure-rein/issues).
 
 ## Author
-[Filipe Linhars](http://twitter.com/ofilipelinhares)
+[Filipe Linhares](http://twitter.com/ofilipelinhares)
 
 ## License
 MIT
