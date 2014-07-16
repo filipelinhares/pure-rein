@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-boz-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #FF6165;
+    color: #FFFCEC
+}
+
+.title {
+  text-align: center;
+  font-size: 80px;
+  color: #FFFCEC;
+  text-shadow: 2px 2px 0 #333333,
+               2px 2px 3px #333333;
+}
+
+.list-item {
+  display: inline-block;
+}
+
+.social-btn {
+  -webkit-animation: flash 2s linear infinite alternate;
+  -o-animation: flash 2s linear infinite alternate;
+  animation: flash 2s linear infinite alternate;
+}
+
+.main {
+  width: 80%;
+  left: 50%;
+  margin-left: -40%;
+  background: #FFFCEC;
+  padding: 20px;
+  color: #333;
+  position: absolute;
+  top: 94%;
+}
+
+h2 {
+  font-size: 30px;
+  text-shadow: 1px 1px 0 #FF6165;
+  border-bottom: 3px solid #FF6165;
+}
+
+.ribbons {
+  width: 100%;
+  height: 20px;
+}
+
+.ribbons span {
+  display: block;
+  height: 10px;
+  width: 20%;
+  float: left;
+}
+
+.part-1 {
+  background: #333333;
+}
+
+.part-2 {
+  background: #ABDCD6;
+}
+
+.part-3 {
+  background: #FFF;
+}
+
+.part-4 {
+  background: #FFBBA3;
+}
+
+.part-5 {
+  background: #FFFCEC;
+}
+
+a:not(*[class~="pure-button"]) {
+  color: #222;
+  font-weight: bold;
+}
+
+.tag {
+  color: #FFBBA3;
+}
+
+.att {
+  color: #ABDCD6;
+}
+
+.buttons-link {
+  text-align: center;
+  font-size: 20px;
+  padding: 20px 0 0 0
+}
+
+.simple-color {
+  background: #222;
+  color: #fff;
+}
+
+.showcase {
+  text-align: center;
+}
+
+.footer {
+  border-top: 3px solid #FF6165;
+  margin-top: 50px;
+  padding-top: 30px;
+}
+
+.footer iframe {
+  margin: -14px 0;
+}
+
+
+/*Media queries*/
+@media screen and (max-width: 500px) {
+  .title {
+    font-size: 60px;
+  }
+}
+
+@media screen and (max-width: 365px) {
+  .title {
+    font-size: 36px;
+  }
+
+  .social-btn {
+    display: block;
+  }
+
+  .main {
+    width: 100%;
+    left: 0;
+    margin: 0;
+  }
+}
+
+@-webkit-keyframes flash {
+  0% {
+    background: rgb(34, 34, 34);
+  }
+  20% {
+    background: rgb(66, 184, 221);;
+  }
+  40% {
+    background: rgb(28, 184, 65);
+  }
+  60% {
+    background: rgb(202, 60, 60);
+  }
+  80% {
+    background: rgb(223, 117, 20);
+  }
+  100% {
+    background: rgb(34, 34, 34);
+  }
+}
